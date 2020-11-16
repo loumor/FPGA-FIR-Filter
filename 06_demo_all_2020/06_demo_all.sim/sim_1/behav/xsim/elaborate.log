@@ -1,0 +1,61 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto e6a4e5df04c94149963ef0c159be1529 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'pmod_cs' is not connected on this instance [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_tb/tb_top.sv:22]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_signed
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.0,C...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture behavioral of entity xil_defaultlib.clk_prescaler [\clk_prescaler(prescaler=100)\]
+Compiling architecture behavioral of entity xil_defaultlib.clk_prescaler [\clk_prescaler(prescaler=1000)\]
+Compiling architecture logic of entity xil_defaultlib.i2c_master [\i2c_master(input_clk=100000000,...]
+Compiling architecture logic of entity xil_defaultlib.i2c_wrapper [\i2c_wrapper(input_clk=100000000...]
+Compiling module unisims_ver.IBUF(CAPACITANCE="DONT_CARE",IBU...
+Compiling architecture rtl of entity xil_defaultlib.spi_master [spi_master_default]
+Compiling architecture rtl of entity xil_defaultlib.spi_wrapper_1x [spi_wrapper_1x_default]
+Compiling architecture rtl of entity xil_defaultlib.spi_controller [spi_controller_default]
+Compiling architecture rtl of entity xil_defaultlib.fifo_ram [fifo_ram_default]
+Compiling architecture rtl of entity xil_defaultlib.uart_tx [\uart_tx(g_baud_rate=115200)\]
+Compiling architecture rtl of entity xil_defaultlib.uart_rx [\uart_rx(g_baud_rate=115200)\]
+Compiling architecture rtl of entity xil_defaultlib.uart [\uart(g_baud_rate=115200)\]
+Compiling architecture rtl of entity xil_defaultlib.data_processing_input [\data_processing_input(g_data_wi...]
+Compiling architecture rtl of entity xil_defaultlib.pipeline [\pipeline(g_data_width=8)\]
+Compiling architecture behav of entity xil_defaultlib.my_FIR_filter [\my_FIR_filter(g_data_width=8)\]
+Compiling architecture rtl of entity xil_defaultlib.my_filter [\my_filter(g_data_width=8)\]
+Compiling architecture rtl of entity xil_defaultlib.data_processing [\data_processing(g_data_width=8)...]
+Compiling module unisims_ver.XADC(INIT_40=16'b011,INIT_41=16'...
+Compiling module xil_defaultlib.xadc_wiz_0
+Compiling architecture behavioral of entity xil_defaultlib.dbg_pwm_out [\dbg_pwm_out(g_input_bits=12)\]
+Compiling architecture behavioral of entity xil_defaultlib.SpiCtrl [spictrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.Delay [delay_default]
+Compiling architecture behavioral of entity xil_defaultlib.OledInit [oledinit_default]
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.mem_oled_char_lib
+Compiling architecture behavioral of entity xil_defaultlib.OledUser [oleduser_default]
+Compiling architecture behavioral of entity xil_defaultlib.PmodOLEDCtrl [\PmodOLEDCtrl(g_in_sim=1)\]
+Compiling architecture rtl of entity xil_defaultlib.fpga_top [\fpga_top(g_in_sim=1)\]
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.bfm_i2c_slave(I2C_ADR=7'b1010000...
+Compiling module xil_defaultlib.bfm_uart
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav

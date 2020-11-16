@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="120000000000fs"></ZoomEndTime>
+      <Cursor1Time time="120000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="113"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wave_markers>
+      <marker time="200000000" label="" />
+   </wave_markers>
+   <wvobject type="divider" fp_name="divider304">
+      <obj_property name="label">PM_XADC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/daddr_in" type="array">
+      <obj_property name="ElementShortName">daddr_in[6:0]</obj_property>
+      <obj_property name="ObjectShortName">daddr_in[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/dclk_in" type="logic">
+      <obj_property name="ElementShortName">dclk_in</obj_property>
+      <obj_property name="ObjectShortName">dclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/den_in" type="logic">
+      <obj_property name="ElementShortName">den_in</obj_property>
+      <obj_property name="ObjectShortName">den_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/di_in" type="array">
+      <obj_property name="ElementShortName">di_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">di_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/dwe_in" type="logic">
+      <obj_property name="ElementShortName">dwe_in</obj_property>
+      <obj_property name="ObjectShortName">dwe_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/reset_in" type="logic">
+      <obj_property name="ElementShortName">reset_in</obj_property>
+      <obj_property name="ObjectShortName">reset_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/vp_in" type="logic">
+      <obj_property name="ElementShortName">vp_in</obj_property>
+      <obj_property name="ObjectShortName">vp_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/vn_in" type="logic">
+      <obj_property name="ElementShortName">vn_in</obj_property>
+      <obj_property name="ObjectShortName">vn_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/busy_out" type="logic">
+      <obj_property name="ElementShortName">busy_out</obj_property>
+      <obj_property name="ObjectShortName">busy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/channel_out" type="array">
+      <obj_property name="ElementShortName">channel_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/do_out" type="array">
+      <obj_property name="ElementShortName">do_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">do_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/drdy_out" type="logic">
+      <obj_property name="ElementShortName">drdy_out</obj_property>
+      <obj_property name="ObjectShortName">drdy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/eoc_out" type="logic">
+      <obj_property name="ElementShortName">eoc_out</obj_property>
+      <obj_property name="ObjectShortName">eoc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/eos_out" type="logic">
+      <obj_property name="ElementShortName">eos_out</obj_property>
+      <obj_property name="ObjectShortName">eos_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/alarm_out" type="logic">
+      <obj_property name="ElementShortName">alarm_out</obj_property>
+      <obj_property name="ObjectShortName">alarm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/FLOAT_VCCAUX" type="logic">
+      <obj_property name="ElementShortName">FLOAT_VCCAUX</obj_property>
+      <obj_property name="ObjectShortName">FLOAT_VCCAUX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/FLOAT_VCCINT" type="logic">
+      <obj_property name="ElementShortName">FLOAT_VCCINT</obj_property>
+      <obj_property name="ObjectShortName">FLOAT_VCCINT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/FLOAT_TEMP" type="logic">
+      <obj_property name="ElementShortName">FLOAT_TEMP</obj_property>
+      <obj_property name="ObjectShortName">FLOAT_TEMP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/GND_BIT" type="logic">
+      <obj_property name="ElementShortName">GND_BIT</obj_property>
+      <obj_property name="ObjectShortName">GND_BIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/GND_BUS3" type="array">
+      <obj_property name="ElementShortName">GND_BUS3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">GND_BUS3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/aux_channel_p" type="array">
+      <obj_property name="ElementShortName">aux_channel_p[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aux_channel_p[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/aux_channel_n" type="array">
+      <obj_property name="ElementShortName">aux_channel_n[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aux_channel_n[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/alm_int" type="array">
+      <obj_property name="ElementShortName">alm_int[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alm_int[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider829">
+      <obj_property name="label">PROCESS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/btn" type="array">
+      <obj_property name="ElementShortName">btn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/xadc_sample" type="array">
+      <obj_property name="ElementShortName">xadc_sample[11:0]</obj_property>
+      <obj_property name="ObjectShortName">xadc_sample[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/xadc_offset" type="array">
+      <obj_property name="ElementShortName">xadc_offset[11:0]</obj_property>
+      <obj_property name="ObjectShortName">xadc_offset[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/xadc_actual" type="array">
+      <obj_property name="ElementShortName">xadc_actual[11:0]</obj_property>
+      <obj_property name="ObjectShortName">xadc_actual[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/xadc_calculation" type="array">
+      <obj_property name="ElementShortName">xadc_calculation[11:0]</obj_property>
+      <obj_property name="ObjectShortName">xadc_calculation[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/drdy_out" type="logic">
+      <obj_property name="ElementShortName">drdy_out</obj_property>
+      <obj_property name="ObjectShortName">drdy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/calc_2" type="logic">
+      <obj_property name="ElementShortName">calc_2</obj_property>
+      <obj_property name="ObjectShortName">calc_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/calc_3" type="logic">
+      <obj_property name="ElementShortName">calc_3</obj_property>
+      <obj_property name="ObjectShortName">calc_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/calc_4" type="logic">
+      <obj_property name="ElementShortName">calc_4</obj_property>
+      <obj_property name="ObjectShortName">calc_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_digit_1" type="other">
+      <obj_property name="ElementShortName">oled_digit_1</obj_property>
+      <obj_property name="ObjectShortName">oled_digit_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_digit_2" type="other">
+      <obj_property name="ElementShortName">oled_digit_2</obj_property>
+      <obj_property name="ObjectShortName">oled_digit_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_digit_3" type="other">
+      <obj_property name="ElementShortName">oled_digit_3</obj_property>
+      <obj_property name="ObjectShortName">oled_digit_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_digit_4" type="other">
+      <obj_property name="ElementShortName">oled_digit_4</obj_property>
+      <obj_property name="ObjectShortName">oled_digit_4</obj_property>
+   </wvobject>
+</wave_config>

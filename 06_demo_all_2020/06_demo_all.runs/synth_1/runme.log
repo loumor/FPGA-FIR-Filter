@@ -1,0 +1,644 @@
+
+*** Running vivado
+    with args -log fpga_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fpga_top.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source fpga_top.tcl -notrace
+Command: synth_design -top fpga_top -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14692
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1024.797 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fpga_top' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_top.vhd:59]
+	Parameter G_IN_SIM bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/.Xil/Vivado-10384-LAB-GPS517-003/realtime/clk_wiz_0_stub.v:5' bound to instance 'PM_PLL' of component 'clk_wiz_0' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_top.vhd:194]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/.Xil/Vivado-10384-LAB-GPS517-003/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/.Xil/Vivado-10384-LAB-GPS517-003/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'clk_prescaler' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/clk_prescaler.vhd:14]
+	Parameter PRESCALER bound to: 100 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clk_prescaler' (2#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/clk_prescaler.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'clk_prescaler__parameterized0' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/clk_prescaler.vhd:14]
+	Parameter PRESCALER bound to: 1000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clk_prescaler__parameterized0' (2#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/clk_prescaler.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'i2c_wrapper' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/i2c/i2c_wrapper.vhd:20]
+	Parameter input_clk bound to: 100000000 - type: integer 
+	Parameter bus_clk bound to: 100000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'i2c_master' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/i2c/i2c_master.vhd:54]
+	Parameter input_clk bound to: 100000000 - type: integer 
+	Parameter bus_clk bound to: 100000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'i2c_master' (3#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/i2c/i2c_master.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'i2c_wrapper' (4#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/i2c/i2c_wrapper.vhd:20]
+INFO: [Synth 8-3491] module 'IBUF' declared at 'C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32977' bound to instance 'U1' of component 'IBUF' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_top.vhd:310]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32977]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (5#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32977]
+INFO: [Synth 8-638] synthesizing module 'spi_controller' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/spi/spi_controller.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'spi_wrapper_1x' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/spi/spi_wrapper_1x.vhd:48]
+	Parameter G_NUM_SPI_CLKS_READ bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'spi_master' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/spi/spi_master.vhd:44]
+	Parameter G_SPI_CLKS_READ bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'spi_master' (6#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/spi/spi_master.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'spi_wrapper_1x' (7#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/spi/spi_wrapper_1x.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'spi_controller' (8#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/spi/spi_controller.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'uart' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/uart/uart.vhd:74]
+	Parameter G_BAUD_RATE bound to: 115200 - type: integer 
+	Parameter G_CLOCK_FREQ bound to: 100000000.000000 - type: double 
+INFO: [Synth 8-638] synthesizing module 'fifo_ram' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fifo_ram.vhd:64]
+	Parameter G_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter G_DEPTH bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fifo_ram' (9#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fifo_ram.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/uart/uart_tx.vhd:56]
+	Parameter G_BAUD_RATE bound to: 115200 - type: integer 
+	Parameter G_CLOCK_FREQ bound to: 100000000.000000 - type: double 
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (10#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/uart/uart_tx.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/uart/uart_rx.vhd:58]
+	Parameter G_BAUD_RATE bound to: 115200 - type: integer 
+	Parameter G_CLOCK_FREQ bound to: 100000000.000000 - type: double 
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (11#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/uart/uart_rx.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'uart' (12#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/uart/uart.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'data_processing' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/data_processing.vhd:35]
+	Parameter G_DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'data_processing_input' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/data_processing_input.vhd:38]
+	Parameter G_DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'data_processing_input' (13#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/data_processing_input.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'my_filter' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/my_filter.vhd:33]
+	Parameter G_DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/my_filter.vhd:54]
+INFO: [Synth 8-226] default block is never used [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/my_filter.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'pipeline' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pipeline.vhd:29]
+	Parameter G_DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pipeline' (14#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pipeline.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'my_FIR_filter' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/my_FIR_filter.vhd:20]
+	Parameter G_DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'my_FIR_filter' (15#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/my_FIR_filter.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'my_filter' (16#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/my_filter.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'data_processing' (17#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/data_processing.vhd:35]
+INFO: [Synth 8-3491] module 'xadc_wiz_0' declared at 'C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/.Xil/Vivado-10384-LAB-GPS517-003/realtime/xadc_wiz_0_stub.v:5' bound to instance 'PM_XADC' of component 'xadc_wiz_0' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_top.vhd:424]
+INFO: [Synth 8-6157] synthesizing module 'xadc_wiz_0' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/.Xil/Vivado-10384-LAB-GPS517-003/realtime/xadc_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'xadc_wiz_0' (18#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/.Xil/Vivado-10384-LAB-GPS517-003/realtime/xadc_wiz_0_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'dbg_pwm_out' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/dbg_pwm_out.vhd:28]
+	Parameter G_INPUT_BITS bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'dbg_pwm_out' (19#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/dbg_pwm_out.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'PmodOLEDCtrl' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/PmodOLEDCtrl.vhd:42]
+	Parameter G_IN_SIM bound to: 0 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'OledInit' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/OledInit.vhd:34]
+INFO: [Synth 8-3491] module 'SpiCtrl' declared at 'C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/SpiCtrl.vhd:21' bound to instance 'SPI_COMP' of component 'SpiCtrl' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/OledInit.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'SpiCtrl' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/SpiCtrl.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'SpiCtrl' (20#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/SpiCtrl.vhd:32]
+INFO: [Synth 8-3491] module 'Delay' declared at 'C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/Delay.vhd:19' bound to instance 'DELAY_COMP' of component 'Delay' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/OledInit.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'Delay' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/Delay.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'Delay' (21#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/Delay.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'OledInit' (22#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/OledInit.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'OledUser' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/OledUser.vhd:42]
+INFO: [Synth 8-3491] module 'SpiCtrl' declared at 'C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/SpiCtrl.vhd:21' bound to instance 'PM_SPI_COMP' of component 'SpiCtrl' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/OledUser.vhd:165]
+INFO: [Synth 8-3491] module 'mem_oled_char_lib' declared at 'C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/.Xil/Vivado-10384-LAB-GPS517-003/realtime/mem_oled_char_lib_stub.v:6' bound to instance 'PM_CHAR_LIB_COMP' of component 'mem_oled_char_lib' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/OledUser.vhd:186]
+INFO: [Synth 8-6157] synthesizing module 'mem_oled_char_lib' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/.Xil/Vivado-10384-LAB-GPS517-003/realtime/mem_oled_char_lib_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mem_oled_char_lib' (23#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/.Xil/Vivado-10384-LAB-GPS517-003/realtime/mem_oled_char_lib_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'OledUser' (24#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/OledUser.vhd:42]
+INFO: [Synth 8-226] default block is never used [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/PmodOLEDCtrl.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'PmodOLEDCtrl' (25#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/pmod_oled/PmodOLEDCtrl.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'fpga_top' (26#1) [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_top.vhd:59]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1067.926 ; gain = 43.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1067.926 ; gain = 43.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1067.926 ; gain = 43.129
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1067.926 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/mem_oled_char_lib/mem_oled_char_lib/mem_oled_char_lib_in_context.xdc] for cell 'PM_OLED/PM_UserDisp/PM_CHAR_LIB_COMP'
+Finished Parsing XDC File [c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/mem_oled_char_lib/mem_oled_char_lib/mem_oled_char_lib_in_context.xdc] for cell 'PM_OLED/PM_UserDisp/PM_CHAR_LIB_COMP'
+Parsing XDC File [c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/xadc_wiz_0/xadc_wiz_0/xadc_wiz_0_in_context.xdc] for cell 'PM_XADC'
+Finished Parsing XDC File [c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/xadc_wiz_0/xadc_wiz_0/xadc_wiz_0_in_context.xdc] for cell 'PM_XADC'
+Parsing XDC File [c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'PM_PLL'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:1]
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:4]
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:6]
+Finished Parsing XDC File [c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'PM_PLL'
+Parsing XDC File [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_constraints.xdc]
+WARNING: [Vivado 12-508] No pins matched 'PM_PLL/inst/mmcm_adv_inst/CLKOUT1'. [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_constraints.xdc:104]
+WARNING: [Vivado 12-508] No pins matched 'PM_PLL/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_constraints.xdc:105]
+Finished Parsing XDC File [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_constraints.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_constraints.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/fpga_top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fpga_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fpga_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1139.246 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1139.246 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'PM_OLED/PM_UserDisp/PM_CHAR_LIB_COMP' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1142.301 ; gain = 117.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1142.301 ; gain = 117.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_pad. (constraint file  c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_pad. (constraint file  c:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 8).
+Applied set_property DONT_TOUCH = true for PM_OLED/PM_UserDisp/PM_CHAR_LIB_COMP. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for PM_XADC. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for PM_PLL. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1142.301 ; gain = 117.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'i2c_master'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'spi_master'
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_rx_state_reg' in module 'uart_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'SpiCtrl'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'Delay'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'PmodOLEDCtrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   ready |                        000000001 |                             0000
+                   start |                        000000010 |                             0001
+                 command |                        000000100 |                             0010
+                slv_ack1 |                        000001000 |                             0011
+                      wr |                        000010000 |                             0100
+                slv_ack2 |                        000100000 |                             0110
+                      rd |                        001000000 |                             0101
+                mstr_ack |                        010000000 |                             0111
+                    stop |                        100000000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'i2c_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                 waiting |                              001 |                              001
+                 writing |                              010 |                              010
+               write_end |                              011 |                              011
+                  iSTATE |                              100 |                              111
+                 reading |                              101 |                              100
+                read_end |                              110 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'spi_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 rx_idle |                              001 |                               00
+                 rx_data |                              010 |                               01
+                 rx_stop |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_rx_state_reg' using encoding 'one-hot' in module 'uart_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                    send |                              001 |                              001
+                   hold1 |                              010 |                              010
+                   hold2 |                              011 |                              011
+                   hold3 |                              100 |                              100
+                   hold4 |                              101 |                              101
+                    done |                              110 |                              110
+                  iSTATE |                              111 |                              111
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'SpiCtrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0001 |                               00
+                    hold |                             0010 |                               01
+                    done |                             0100 |                               10
+                  iSTATE |                             1000 |                               11
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'Delay'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0001 |                               00
+          oledinitialize |                             0010 |                               01
+                oleduser |                             0100 |                               10
+                    done |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'PmodOLEDCtrl'
+WARNING: [Synth 8-327] inferring latch for variable 'di_in_reg' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_top.vhd:426]
+WARNING: [Synth 8-327] inferring latch for variable 'dwe_in_reg' [C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src/fpga_top.vhd:429]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1142.301 ; gain = 117.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   39 Bit       Adders := 18    
+	   2 Input   32 Bit       Adders := 2     
+	   3 Input   12 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 20    
+	   2 Input   10 Bit       Adders := 5     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 11    
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               39 Bit    Registers := 27    
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 3     
+	               12 Bit    Registers := 4     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 6     
+	                8 Bit    Registers := 157   
+	                7 Bit    Registers := 4     
+	                5 Bit    Registers := 9     
+	                4 Bit    Registers := 13    
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 93    
++---RAMs : 
+	              128 Bit	(16 X 8 bit)          RAMs := 3     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   7 Input   32 Bit        Muxes := 1     
+	   6 Input   32 Bit        Muxes := 1     
+	  25 Input   32 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 1     
+	   7 Input   16 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 4     
+	  26 Input   11 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 2     
+	   9 Input    9 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 9     
+	   6 Input    8 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 8     
+	  10 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 17    
+	   3 Input    8 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	  28 Input    8 Bit        Muxes := 1     
+	  26 Input    8 Bit        Muxes := 1     
+	  16 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	  28 Input    5 Bit        Muxes := 1     
+	  26 Input    5 Bit        Muxes := 3     
+	   2 Input    4 Bit        Muxes := 7     
+	  10 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 5     
+	   6 Input    3 Bit        Muxes := 2     
+	   8 Input    3 Bit        Muxes := 2     
+	   7 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 2     
+	  26 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 142   
+	   4 Input    1 Bit        Muxes := 10    
+	   3 Input    1 Bit        Muxes := 8     
+	   9 Input    1 Bit        Muxes := 7     
+	   6 Input    1 Bit        Muxes := 9     
+	  10 Input    1 Bit        Muxes := 7     
+	   7 Input    1 Bit        Muxes := 12    
+	   8 Input    1 Bit        Muxes := 3     
+	  28 Input    1 Bit        Muxes := 10    
+	  26 Input    1 Bit        Muxes := 8     
+	  25 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Debug: swapped A/B pins for adder 00000236FC062BF0
+DSP Debug: swapped A/B pins for adder 00000236FC06D6F0
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q1_reg, operation Mode is: ((A:0x3faab9e2)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q1_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q1_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M0 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q1_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q2_reg, operation Mode is: (PCIN+(A:0x3f94883e)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q2_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q2_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add1 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q2_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M1 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q2_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q3_reg, operation Mode is: (PCIN+(A:0x3f963090)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q3_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q3_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add2 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q3_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M2 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q3_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q4_reg, operation Mode is: (PCIN+(A:0x3fbfe23e)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q4_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q4_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add3 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q4_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M3 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q4_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q5_reg, operation Mode is: (PCIN+(A:0x212ee1)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q5_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q5_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add4 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q5_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M4 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q5_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q6_reg, operation Mode is: (PCIN+(A:0xc6370d)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q6_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q6_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add5 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q6_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M5 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q6_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/M6, operation Mode is: (A:0xda730f)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M6 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M6.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/M6, operation Mode is: C+(A:0xda730f)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M6 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M6.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M6 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M6.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/M7, operation Mode is: (A:0xeac056)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M7 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M7.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M7 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M7.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/M8, operation Mode is: (A:0x5bba39)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M8 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M8.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M8 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M8.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/M9, operation Mode is: (A:0xf26c84)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M9 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M9.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M9 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M9.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/M10, operation Mode is: (A:0x91c0ae)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M10 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M10.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M10 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M10.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/M11, operation Mode is: (A:0x17f208)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M11 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M11.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M11 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M11.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/M12, operation Mode is: (A:0x62814e)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M12 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M12.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M12 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M12.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/M13, operation Mode is: (A:0x52890c)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M13 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M13.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M13 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M13.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/M14, operation Mode is: (A:0xd0c9b0)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M14 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M14.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M14 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/M14.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q25_reg, operation Mode is: (C'+(A:0xc6370d)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q24_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q25_reg.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q25_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q25_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add24 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q25_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M5 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q25_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q26_reg, operation Mode is: (PCIN+(A:0x212ee1)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q26_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q26_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add25 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q26_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M4 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q26_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q27_reg, operation Mode is: (PCIN+(A:0x3fbfe23e)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q27_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q27_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add26 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q27_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M3 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q27_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q28_reg, operation Mode is: (PCIN+(A:0x3f963090)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q28_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q28_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add27 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q28_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M2 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q28_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/Q29_reg, operation Mode is: (PCIN+(A:0x3f94883e)*B)'.
+DSP Report: register PM_MYFILTER/PM_FILTER_TEST/Q29_reg is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q29_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add28 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q29_reg.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M1 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/Q29_reg.
+DSP Report: Generating DSP PM_MYFILTER/PM_FILTER_TEST/add29, operation Mode is: PCIN+(A:0x3faab9e2)*B.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/add29 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/add29.
+DSP Report: operator PM_MYFILTER/PM_FILTER_TEST/M0 is absorbed into DSP PM_MYFILTER/PM_FILTER_TEST/add29.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1142.301 ; gain = 117.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++-------------+-------------------------+---------------+----------------+
+|Module Name  | RTL Object              | Depth x Width | Implemented As | 
++-------------+-------------------------+---------------+----------------+
+|OledInit     | after_state             | 32x1          | LUT            | 
+|OledInit     | after_state             | 32x5          | LUT            | 
+|OledInit     | temp_spi_data           | 32x1          | LUT            | 
+|OledUser     | after_state             | 32x1          | LUT            | 
+|OledUser     | temp_addr               | 32x1          | LUT            | 
+|fpga_top     | OledSetupArray[0][char] | 32x7          | LUT            | 
+|PmodOLEDCtrl | PM_Init/after_state     | 32x5          | LUT            | 
+|PmodOLEDCtrl | PM_Init/after_state     | 32x1          | LUT            | 
+|PmodOLEDCtrl | PM_Init/temp_spi_data   | 32x1          | LUT            | 
+|PmodOLEDCtrl | PM_UserDisp/after_state | 32x1          | LUT            | 
+|PmodOLEDCtrl | PM_UserDisp/temp_addr   | 32x1          | LUT            | 
+|fpga_top     | OledSetupArray[0][char] | 32x7          | LUT            | 
++-------------+-------------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++----------------+-------------------------------+-----------+----------------------+-------------+
+|Module Name     | RTL Object                    | Inference | Size (Depth x Width) | Primitives  | 
++----------------+-------------------------------+-----------+----------------------+-------------+
+|PM_UART         | fifo_tx_inst/fifo_reg         | Implied   | 16 x 8               | RAM32M x 2	 | 
+|PM_UART         | fifo_rx_inst/fifo_reg         | Implied   | 16 x 8               | RAM32M x 2	 | 
+|PM_DATA_PROCESS | PM_DATAINPUT/PM_FIFO/fifo_reg | Implied   | 16 x 8               | RAM32M x 2	 | 
++----------------+-------------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping	Report (see note below)
++--------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name   | DSP Mapping              | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|my_FIR_filter | ((A:0x3faab9e2)*B)'      | 24     | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|my_FIR_filter | (PCIN+(A:0x3f94883e)*B)' | 24     | 8      | -      | -      | 39     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|my_FIR_filter | (PCIN+(A:0x3f963090)*B)' | 24     | 8      | -      | -      | 39     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|my_FIR_filter | (PCIN+(A:0x3fbfe23e)*B)' | 24     | 8      | -      | -      | 39     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|my_FIR_filter | (PCIN+(A:0x212ee1)*B)'   | 23     | 8      | -      | -      | 39     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|my_FIR_filter | (PCIN+(A:0xc6370d)*B)'   | 25     | 8      | -      | -      | 39     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|my_FIR_filter | (A:0xda730f)*B           | 25     | 8      | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|my_FIR_filter | C+(A:0xda730f)*B         | 25     | 8      | 7      | -      | 33     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|my_FIR_filter | (A:0xeac056)*B           | 25     | 8      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|my_FIR_filter | (A:0x5bba39)*B           | 24     | 8      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|my_FIR_filter | (A:0xf26c84)*B           | 25     | 8      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|my_FIR_filter | (A:0x91c0ae)*B           | 25     | 8      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|my_FIR_filter | (A:0x17f208)*B           | 22     | 8      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|my_FIR_filter | (A:0x62814e)*B           | 24     | 8      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|my_FIR_filter | (A:0x52890c)*B           | 24     | 8      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|my_FIR_filter | (A:0xd0c9b0)*B           | 25     | 8      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|my_FIR_filter | (C'+(A:0xc6370d)*B)'     | 25     | 8      | 39     | -      | 39     | 0    | 0    | 1    | -    | -     | 0    | 1    | 
+|my_FIR_filter | (PCIN+(A:0x212ee1)*B)'   | 23     | 8      | -      | -      | 39     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|my_FIR_filter | (PCIN+(A:0x3fbfe23e)*B)' | 24     | 8      | -      | -      | 39     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|my_FIR_filter | (PCIN+(A:0x3f963090)*B)' | 24     | 8      | -      | -      | 39     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|my_FIR_filter | (PCIN+(A:0x3f94883e)*B)' | 24     | 8      | -      | -      | 39     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|my_FIR_filter | PCIN+(A:0x3faab9e2)*B    | 24     | 8      | -      | -      | 39     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++--------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'clk_pad'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1142.301 ; gain = 117.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1147.328 ; gain = 122.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++----------------+-------------------------------+-----------+----------------------+-------------+
+|Module Name     | RTL Object                    | Inference | Size (Depth x Width) | Primitives  | 
++----------------+-------------------------------+-----------+----------------------+-------------+
+|PM_UART         | fifo_tx_inst/fifo_reg         | Implied   | 16 x 8               | RAM32M x 2	 | 
+|PM_UART         | fifo_rx_inst/fifo_reg         | Implied   | 16 x 8               | RAM32M x 2	 | 
+|PM_DATA_PROCESS | PM_DATAINPUT/PM_FIFO/fifo_reg | Implied   | 16 x 8               | RAM32M x 2	 | 
++----------------+-------------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 1198.738 ; gain = 173.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1202.957 ; gain = 178.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1202.957 ; gain = 178.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1202.957 ; gain = 178.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1202.957 ; gain = 178.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1202.957 ; gain = 178.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1202.957 ; gain = 178.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------+----------+
+|      |BlackBox name     |Instances |
++------+------------------+----------+
+|1     |clk_wiz_0         |         1|
+|2     |xadc_wiz_0        |         1|
+|3     |mem_oled_char_lib |         1|
++------+------------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |clk_wiz           |     1|
+|2     |mem_oled_char_lib |     1|
+|3     |xadc_wiz          |     1|
+|4     |CARRY4            |   317|
+|5     |DSP48E1           |    21|
+|9     |LUT1              |   212|
+|10    |LUT2              |   949|
+|11    |LUT3              |   171|
+|12    |LUT4              |   151|
+|13    |LUT5              |   241|
+|14    |LUT6              |   403|
+|15    |MUXF7             |    62|
+|16    |MUXF8             |    28|
+|17    |RAM32M            |     6|
+|18    |FDCE              |   713|
+|19    |FDPE              |    95|
+|20    |FDRE              |  1336|
+|21    |FDSE              |    75|
+|22    |IBUF              |    11|
+|23    |IOBUF             |     1|
+|24    |OBUF              |    28|
+|25    |OBUFT             |     1|
++------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1202.957 ; gain = 178.160
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:48 . Memory (MB): peak = 1202.957 ; gain = 103.785
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1202.957 ; gain = 178.160
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 1211.008 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 435 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1213.023 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+91 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 1213.023 ; gain = 188.227
+INFO: [Common 17-1381] The checkpoint 'C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/fpga_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fpga_top_utilization_synth.rpt -pb fpga_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 21 18:21:48 2020...

@@ -1,0 +1,192 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.dut.PM_OLED.PM_UserDisp.PM_CHAR_LIB_COMP.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+TEST STARTED
+1000 Reading... i_file_001.txt
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x00
+1000 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x7f
+1000 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x7f
+1000 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x7f
+1000 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1000 UART TX add : 0x7f
+87800 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 87800 UART TX add : 0x7f
+tb_top.bfm_uart 166115 UART RX : 0x00
+174600 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 174600 UART TX add : 0x7f
+tb_top.bfm_uart 252955 UART RX : 0x00
+261400 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 261400 UART TX add : 0x7f
+tb_top.bfm_uart 339795 UART RX : 0x00
+348200 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 348200 UART TX add : 0x7f
+tb_top.bfm_uart 426635 UART RX : 0x00
+435000 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 435000 UART TX add : 0x7f
+tb_top.bfm_uart 513475 UART RX : 0x00
+521800 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 521800 UART TX add : 0x7f
+tb_top.bfm_uart 600315 UART RX : 0x00
+608600 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 608600 UART TX add : 0x7f
+tb_top.bfm_uart 687155 UART RX : 0x00
+695400 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 695400 UART TX add : 0x7f
+tb_top.bfm_uart 773995 UART RX : 0x00
+782200 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 782200 UART TX add : 0x7f
+tb_top.bfm_uart 860835 UART RX : 0x00
+869000 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 869000 UART TX add : 0x7f
+tb_top.bfm_uart 947675 UART RX : 0x00
+955800 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 955800 UART TX add : 0x7f
+tb_top.bfm_uart 1.03452e+06 UART RX : 0x00
+1.0426e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.0426e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.12136e+06 UART RX : 0x00
+1.1294e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.1294e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.2082e+06 UART RX : 0x00
+1.2162e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.2162e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.29504e+06 UART RX : 0x00
+1.303e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.303e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.38188e+06 UART RX : 0x00
+1.3898e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.3898e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.46872e+06 UART RX : 0x00
+1.4766e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.4766e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.55556e+06 UART RX : 0x00
+1.5634e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.5634e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.6424e+06 UART RX : 0x00
+1.6502e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.6502e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.72924e+06 UART RX : 0x00
+1.737e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.737e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.81608e+06 UART RX : 0x00
+1.8238e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.8238e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.90292e+06 UART RX : 0x00
+1.9106e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.9106e+06 UART TX add : 0x7f
+tb_top.bfm_uart 1.98976e+06 UART RX : 0x00
+1.9974e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 1.9974e+06 UART TX add : 0x7f
+tb_top.bfm_uart 2.0766e+06 UART RX : 0x00
+2.0842e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 2.0842e+06 UART TX add : 0x7f
+tb_top.bfm_uart 2.16344e+06 UART RX : 0x00
+2.171e+06 tb_top.bfm_uart.file_input_send 0x7f
+tb_top.bfm_uart.uart_tx 2.171e+06 UART TX add : 0x7f
+tb_top.bfm_uart 2.25028e+06 UART RX : 0x00
+2.2578e+06 tb_top.bfm_uart.file_input_send 0x00
+tb_top.bfm_uart.uart_tx 2.2578e+06 UART TX add : 0x00
+tb_top.bfm_uart 2.33712e+06 UART RX : 0x00
+tb_top.bfm_uart.tx_wait_empty 2.3446e+06 TX wait_empty...
+tb_top.bfm_uart 2.42396e+06 UART RX : 0x00
+tb_top.bfm_uart 2.5108e+06 UART RX : 0x00
+tb_top.bfm_uart 2.59764e+06 UART RX : 0x00
+tb_top.bfm_uart 2.68448e+06 UART RX : 0x00
+tb_top.bfm_uart 2.77132e+06 UART RX : 0x7f
+tb_top.bfm_uart 2.85816e+06 UART RX : 0x7f
+tb_top.bfm_uart 2.945e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.03184e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.11868e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.20552e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.29236e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.3792e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.46604e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.55288e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.63972e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.72656e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.8134e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.90024e+06 UART RX : 0x7f
+tb_top.bfm_uart 3.98708e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.07392e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.16076e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.2476e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.33444e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.42128e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.50812e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.59496e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.6818e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.76864e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.85548e+06 UART RX : 0x7f
+tb_top.bfm_uart 4.94232e+06 UART RX : 0x7f
+tb_top.bfm_uart 5.02916e+06 UART RX : 0x7f
+tb_top.bfm_uart 5.116e+06 UART RX : 0x7f
+tb_top.bfm_uart.tx_wait_empty 5.1222e+06 TX wait_empty...done
+tb_top.bfm_uart 5.20284e+06 UART RX : 0x7f
+tb_top.bfm_uart 5.28968e+06 UART RX : 0x00
+5.6222e+06 tb_top.bfm_uart.file_output_close File Close
+TEST PASSED
+$finish called at time : 5622200 ns : File "C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/src_tb/tb_top.sv" Line 124

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1221225710015fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="109"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb_top/dut/clk_pad" type="logic">
+      <obj_property name="ElementShortName">clk_pad</obj_property>
+      <obj_property name="ObjectShortName">clk_pad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/trigger_i2c" type="logic">
+      <obj_property name="ElementShortName">trigger_i2c</obj_property>
+      <obj_property name="ObjectShortName">trigger_i2c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/i2c_rw" type="logic">
+      <obj_property name="ElementShortName">i2c_rw</obj_property>
+      <obj_property name="ObjectShortName">i2c_rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/trigger_spi" type="logic">
+      <obj_property name="ElementShortName">trigger_spi</obj_property>
+      <obj_property name="ObjectShortName">trigger_spi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/spi_clk" type="logic">
+      <obj_property name="ElementShortName">spi_clk</obj_property>
+      <obj_property name="ObjectShortName">spi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/spi_cs" type="array">
+      <obj_property name="ElementShortName">spi_cs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_cs[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/spi_mosi" type="logic">
+      <obj_property name="ElementShortName">spi_mosi</obj_property>
+      <obj_property name="ObjectShortName">spi_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/spi_miso" type="logic">
+      <obj_property name="ElementShortName">spi_miso</obj_property>
+      <obj_property name="ObjectShortName">spi_miso</obj_property>
+   </wvobject>
+</wave_config>

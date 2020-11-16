@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2000000000001fs"></ZoomEndTime>
+      <Cursor1Time time="242074928000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="155"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="158" />
+   <wave_markers>
+      <marker time="100745000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_top/error_count" type="array">
+      <obj_property name="ElementShortName">error_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/clk_100" type="logic">
+      <obj_property name="ElementShortName">clk_100</obj_property>
+      <obj_property name="ObjectShortName">clk_100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uart_rx" type="logic">
+      <obj_property name="ElementShortName">uart_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/uart_tx" type="logic">
+      <obj_property name="ElementShortName">uart_tx</obj_property>
+      <obj_property name="ObjectShortName">uart_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/switch" type="array">
+      <obj_property name="ElementShortName">switch[3:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider190">
+      <obj_property name="label">BFM I2C</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/SDA" type="logic">
+      <obj_property name="ElementShortName">SDA</obj_property>
+      <obj_property name="ObjectShortName">SDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/SCL" type="logic">
+      <obj_property name="ElementShortName">SCL</obj_property>
+      <obj_property name="ObjectShortName">SCL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/IOout" type="array">
+      <obj_property name="ElementShortName">IOout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IOout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/incycle" type="logic">
+      <obj_property name="ElementShortName">incycle</obj_property>
+      <obj_property name="ObjectShortName">incycle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/bitcnt" type="array">
+      <obj_property name="ElementShortName">bitcnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bitcnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/bit_DATA" type="logic">
+      <obj_property name="ElementShortName">bit_DATA</obj_property>
+      <obj_property name="ObjectShortName">bit_DATA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/bit_ACK" type="logic">
+      <obj_property name="ElementShortName">bit_ACK</obj_property>
+      <obj_property name="ObjectShortName">bit_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/data_phase" type="logic">
+      <obj_property name="ElementShortName">data_phase</obj_property>
+      <obj_property name="ObjectShortName">data_phase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/adr_phase" type="logic">
+      <obj_property name="ElementShortName">adr_phase</obj_property>
+      <obj_property name="ObjectShortName">adr_phase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/adr_match" type="logic">
+      <obj_property name="ElementShortName">adr_match</obj_property>
+      <obj_property name="ObjectShortName">adr_match</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/op_read" type="logic">
+      <obj_property name="ElementShortName">op_read</obj_property>
+      <obj_property name="ObjectShortName">op_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/got_ACK" type="logic">
+      <obj_property name="ElementShortName">got_ACK</obj_property>
+      <obj_property name="ObjectShortName">got_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/SDAr" type="logic">
+      <obj_property name="ElementShortName">SDAr</obj_property>
+      <obj_property name="ObjectShortName">SDAr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/mem" type="array">
+      <obj_property name="ElementShortName">mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/op_write" type="logic">
+      <obj_property name="ElementShortName">op_write</obj_property>
+      <obj_property name="ObjectShortName">op_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/mem_bit_low" type="logic">
+      <obj_property name="ElementShortName">mem_bit_low</obj_property>
+      <obj_property name="ObjectShortName">mem_bit_low</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/SDA_assert_low" type="logic">
+      <obj_property name="ElementShortName">SDA_assert_low</obj_property>
+      <obj_property name="ObjectShortName">SDA_assert_low</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/SDA_assert_ACK" type="logic">
+      <obj_property name="ElementShortName">SDA_assert_ACK</obj_property>
+      <obj_property name="ObjectShortName">SDA_assert_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/SDA_low" type="logic">
+      <obj_property name="ElementShortName">SDA_low</obj_property>
+      <obj_property name="ObjectShortName">SDA_low</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/SDA_shadow" type="logic">
+      <obj_property name="ElementShortName">SDA_shadow</obj_property>
+      <obj_property name="ObjectShortName">SDA_shadow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/start_or_stop" type="logic">
+      <obj_property name="ElementShortName">start_or_stop</obj_property>
+      <obj_property name="ObjectShortName">start_or_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/bfm_i2c_slave_50/I2C_ADR" type="array">
+      <obj_property name="ElementShortName">I2C_ADR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">I2C_ADR[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider226">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/clk_pad" type="logic">
+      <obj_property name="ElementShortName">clk_pad</obj_property>
+      <obj_property name="ObjectShortName">clk_pad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/vp_in" type="logic">
+      <obj_property name="ElementShortName">vp_in</obj_property>
+      <obj_property name="ObjectShortName">vp_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/vn_in" type="logic">
+      <obj_property name="ElementShortName">vn_in</obj_property>
+      <obj_property name="ObjectShortName">vn_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/pmod_cs" type="logic">
+      <obj_property name="ElementShortName">pmod_cs</obj_property>
+      <obj_property name="ObjectShortName">pmod_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/pmod_mosi" type="logic">
+      <obj_property name="ElementShortName">pmod_mosi</obj_property>
+      <obj_property name="ObjectShortName">pmod_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/pmod_sclk" type="logic">
+      <obj_property name="ElementShortName">pmod_sclk</obj_property>
+      <obj_property name="ObjectShortName">pmod_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/pmod_dc" type="logic">
+      <obj_property name="ElementShortName">pmod_dc</obj_property>
+      <obj_property name="ObjectShortName">pmod_dc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/pmod_res" type="logic">
+      <obj_property name="ElementShortName">pmod_res</obj_property>
+      <obj_property name="ObjectShortName">pmod_res</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/pmod_vbat" type="logic">
+      <obj_property name="ElementShortName">pmod_vbat</obj_property>
+      <obj_property name="ObjectShortName">pmod_vbat</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/pmod_vdd" type="logic">
+      <obj_property name="ElementShortName">pmod_vdd</obj_property>
+      <obj_property name="ObjectShortName">pmod_vdd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/I2C_SCL" type="logic">
+      <obj_property name="ElementShortName">I2C_SCL</obj_property>
+      <obj_property name="ObjectShortName">I2C_SCL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/I2C_SDA" type="logic">
+      <obj_property name="ElementShortName">I2C_SDA</obj_property>
+      <obj_property name="ObjectShortName">I2C_SDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/spi_clk" type="logic">
+      <obj_property name="ElementShortName">spi_clk</obj_property>
+      <obj_property name="ObjectShortName">spi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/spi_cs" type="array">
+      <obj_property name="ElementShortName">spi_cs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_cs[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/spi_miso" type="logic">
+      <obj_property name="ElementShortName">spi_miso</obj_property>
+      <obj_property name="ObjectShortName">spi_miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/spi_mosi" type="logic">
+      <obj_property name="ElementShortName">spi_mosi</obj_property>
+      <obj_property name="ObjectShortName">spi_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/uart_tx" type="logic">
+      <obj_property name="ElementShortName">uart_tx</obj_property>
+      <obj_property name="ObjectShortName">uart_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/uart_rx" type="logic">
+      <obj_property name="ElementShortName">uart_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/btn" type="array">
+      <obj_property name="ElementShortName">btn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/switch" type="array">
+      <obj_property name="ElementShortName">switch[3:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/led" type="array">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/led_r" type="array">
+      <obj_property name="ElementShortName">led_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/led_g" type="array">
+      <obj_property name="ElementShortName">led_g[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_g[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/led_b" type="array">
+      <obj_property name="ElementShortName">led_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/state_oled" type="other">
+      <obj_property name="ElementShortName">state_oled</obj_property>
+      <obj_property name="ObjectShortName">state_oled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/state_oled_next" type="other">
+      <obj_property name="ElementShortName">state_oled_next</obj_property>
+      <obj_property name="ObjectShortName">state_oled_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_count" type="other">
+      <obj_property name="ElementShortName">oled_count</obj_property>
+      <obj_property name="ObjectShortName">oled_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_req" type="logic">
+      <obj_property name="ElementShortName">oled_req</obj_property>
+      <obj_property name="ObjectShortName">oled_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_req_addr" type="array">
+      <obj_property name="ElementShortName">oled_req_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oled_req_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_req_data" type="array">
+      <obj_property name="ElementShortName">oled_req_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oled_req_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_rsp" type="logic">
+      <obj_property name="ElementShortName">oled_rsp</obj_property>
+      <obj_property name="ObjectShortName">oled_rsp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/clk_100M" type="logic">
+      <obj_property name="ElementShortName">clk_100M</obj_property>
+      <obj_property name="ObjectShortName">clk_100M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/clk_36M" type="logic">
+      <obj_property name="ElementShortName">clk_36M</obj_property>
+      <obj_property name="ObjectShortName">clk_36M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/clk_1M" type="logic">
+      <obj_property name="ElementShortName">clk_1M</obj_property>
+      <obj_property name="ObjectShortName">clk_1M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/clk_1" type="logic">
+      <obj_property name="ElementShortName">clk_1</obj_property>
+      <obj_property name="ObjectShortName">clk_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/uart_rx_data" type="array">
+      <obj_property name="ElementShortName">uart_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/uart_rx_valid" type="logic">
+      <obj_property name="ElementShortName">uart_rx_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/uart_rx_valid_dly1" type="logic">
+      <obj_property name="ElementShortName">uart_rx_valid_dly1</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_valid_dly1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/uart_rx_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">uart_rx_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/uart_tx_data" type="array">
+      <obj_property name="ElementShortName">uart_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/uart_tx_valid" type="logic">
+      <obj_property name="ElementShortName">uart_tx_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/dp_data_in_valid" type="logic">
+      <obj_property name="ElementShortName">dp_data_in_valid</obj_property>
+      <obj_property name="ObjectShortName">dp_data_in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/dp_data_in" type="array">
+      <obj_property name="ElementShortName">dp_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dp_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/di_in" type="array">
+      <obj_property name="ElementShortName">di_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">di_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/daddr_in" type="array">
+      <obj_property name="ElementShortName">daddr_in[6:0]</obj_property>
+      <obj_property name="ObjectShortName">daddr_in[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/den_in" type="logic">
+      <obj_property name="ElementShortName">den_in</obj_property>
+      <obj_property name="ObjectShortName">den_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/dwe_in" type="logic">
+      <obj_property name="ElementShortName">dwe_in</obj_property>
+      <obj_property name="ObjectShortName">dwe_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/drdy_out" type="logic">
+      <obj_property name="ElementShortName">drdy_out</obj_property>
+      <obj_property name="ObjectShortName">drdy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/do_out" type="array">
+      <obj_property name="ElementShortName">do_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">do_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/eoc_out" type="logic">
+      <obj_property name="ElementShortName">eoc_out</obj_property>
+      <obj_property name="ObjectShortName">eoc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/xadc_pwm" type="logic">
+      <obj_property name="ElementShortName">xadc_pwm</obj_property>
+      <obj_property name="ObjectShortName">xadc_pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/xadc_sample" type="array">
+      <obj_property name="ElementShortName">xadc_sample[11:0]</obj_property>
+      <obj_property name="ObjectShortName">xadc_sample[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_sample" type="array">
+      <obj_property name="ElementShortName">oled_sample[11:0]</obj_property>
+      <obj_property name="ObjectShortName">oled_sample[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/G_IN_SIM" type="other">
+      <obj_property name="ElementShortName">G_IN_SIM</obj_property>
+      <obj_property name="ObjectShortName">G_IN_SIM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/OledSetupArray" type="array">
+      <obj_property name="ElementShortName">OledSetupArray[0:24]</obj_property>
+      <obj_property name="ObjectShortName">OledSetupArray[0:24]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider167">
+      <obj_property name="label">I2C Wrapper</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/clk_sys" type="logic">
+      <obj_property name="ElementShortName">clk_sys</obj_property>
+      <obj_property name="ObjectShortName">clk_sys</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/trigger" type="logic">
+      <obj_property name="ElementShortName">trigger</obj_property>
+      <obj_property name="ObjectShortName">trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/sm_i2c" type="other">
+      <obj_property name="ElementShortName">sm_i2c</obj_property>
+      <obj_property name="ObjectShortName">sm_i2c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/sm_i2c_next" type="other">
+      <obj_property name="ElementShortName">sm_i2c_next</obj_property>
+      <obj_property name="ObjectShortName">sm_i2c_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/i2c_ena" type="logic">
+      <obj_property name="ElementShortName">i2c_ena</obj_property>
+      <obj_property name="ObjectShortName">i2c_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/i2c_addr" type="array">
+      <obj_property name="ElementShortName">i2c_addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">i2c_addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/i2c_rw" type="logic">
+      <obj_property name="ElementShortName">i2c_rw</obj_property>
+      <obj_property name="ObjectShortName">i2c_rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/i2c_data_wr" type="array">
+      <obj_property name="ElementShortName">i2c_data_wr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i2c_data_wr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/i2c_busy" type="logic">
+      <obj_property name="ElementShortName">i2c_busy</obj_property>
+      <obj_property name="ObjectShortName">i2c_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/i2c_busy_last" type="logic">
+      <obj_property name="ElementShortName">i2c_busy_last</obj_property>
+      <obj_property name="ObjectShortName">i2c_busy_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/i2c_data_rd" type="array">
+      <obj_property name="ElementShortName">i2c_data_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i2c_data_rd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/i2c_ack_error" type="logic">
+      <obj_property name="ElementShortName">i2c_ack_error</obj_property>
+      <obj_property name="ObjectShortName">i2c_ack_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/eeprom_addr" type="array">
+      <obj_property name="ElementShortName">eeprom_addr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">eeprom_addr[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/input_clk" type="other">
+      <obj_property name="ElementShortName">input_clk</obj_property>
+      <obj_property name="ObjectShortName">input_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/bus_clk" type="other">
+      <obj_property name="ElementShortName">bus_clk</obj_property>
+      <obj_property name="ObjectShortName">bus_clk</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider152">
+      <obj_property name="label">I2C</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/addr" type="array">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/rw" type="logic">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/data_wr" type="array">
+      <obj_property name="ElementShortName">data_wr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_wr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/data_rd" type="array">
+      <obj_property name="ElementShortName">data_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/ack_error" type="logic">
+      <obj_property name="ElementShortName">ack_error</obj_property>
+      <obj_property name="ObjectShortName">ack_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/data_clk" type="logic">
+      <obj_property name="ElementShortName">data_clk</obj_property>
+      <obj_property name="ObjectShortName">data_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/data_clk_prev" type="logic">
+      <obj_property name="ElementShortName">data_clk_prev</obj_property>
+      <obj_property name="ObjectShortName">data_clk_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/scl_clk" type="logic">
+      <obj_property name="ElementShortName">scl_clk</obj_property>
+      <obj_property name="ObjectShortName">scl_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/scl_ena" type="logic">
+      <obj_property name="ElementShortName">scl_ena</obj_property>
+      <obj_property name="ObjectShortName">scl_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/sda_int" type="logic">
+      <obj_property name="ElementShortName">sda_int</obj_property>
+      <obj_property name="ObjectShortName">sda_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/sda_ena_n" type="logic">
+      <obj_property name="ElementShortName">sda_ena_n</obj_property>
+      <obj_property name="ObjectShortName">sda_ena_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/addr_rw" type="array">
+      <obj_property name="ElementShortName">addr_rw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rw[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/data_tx" type="array">
+      <obj_property name="ElementShortName">data_tx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/data_rx" type="array">
+      <obj_property name="ElementShortName">data_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/bit_cnt" type="other">
+      <obj_property name="ElementShortName">bit_cnt</obj_property>
+      <obj_property name="ObjectShortName">bit_cnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/stretch" type="logic">
+      <obj_property name="ElementShortName">stretch</obj_property>
+      <obj_property name="ObjectShortName">stretch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/input_clk" type="other">
+      <obj_property name="ElementShortName">input_clk</obj_property>
+      <obj_property name="ObjectShortName">input_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/bus_clk" type="other">
+      <obj_property name="ElementShortName">bus_clk</obj_property>
+      <obj_property name="ObjectShortName">bus_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_I2C_WRAPPER/PM_I2C_MASTER/divider" type="other">
+      <obj_property name="ElementShortName">divider</obj_property>
+      <obj_property name="ObjectShortName">divider</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1735">
+      <obj_property name="label">XADC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/daddr_in" type="array">
+      <obj_property name="ElementShortName">daddr_in[6:0]</obj_property>
+      <obj_property name="ObjectShortName">daddr_in[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/dclk_in" type="logic">
+      <obj_property name="ElementShortName">dclk_in</obj_property>
+      <obj_property name="ObjectShortName">dclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/den_in" type="logic">
+      <obj_property name="ElementShortName">den_in</obj_property>
+      <obj_property name="ObjectShortName">den_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/di_in" type="array">
+      <obj_property name="ElementShortName">di_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">di_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/dwe_in" type="logic">
+      <obj_property name="ElementShortName">dwe_in</obj_property>
+      <obj_property name="ObjectShortName">dwe_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/reset_in" type="logic">
+      <obj_property name="ElementShortName">reset_in</obj_property>
+      <obj_property name="ObjectShortName">reset_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/vp_in" type="logic">
+      <obj_property name="ElementShortName">vp_in</obj_property>
+      <obj_property name="ObjectShortName">vp_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/vn_in" type="logic">
+      <obj_property name="ElementShortName">vn_in</obj_property>
+      <obj_property name="ObjectShortName">vn_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/busy_out" type="logic">
+      <obj_property name="ElementShortName">busy_out</obj_property>
+      <obj_property name="ObjectShortName">busy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/channel_out" type="array">
+      <obj_property name="ElementShortName">channel_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/do_out" type="array">
+      <obj_property name="ElementShortName">do_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">do_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/drdy_out" type="logic">
+      <obj_property name="ElementShortName">drdy_out</obj_property>
+      <obj_property name="ObjectShortName">drdy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/eoc_out" type="logic">
+      <obj_property name="ElementShortName">eoc_out</obj_property>
+      <obj_property name="ObjectShortName">eoc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/eos_out" type="logic">
+      <obj_property name="ElementShortName">eos_out</obj_property>
+      <obj_property name="ObjectShortName">eos_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC/alarm_out" type="logic">
+      <obj_property name="ElementShortName">alarm_out</obj_property>
+      <obj_property name="ObjectShortName">alarm_out</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1918">
+      <obj_property name="label">XADC PWM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC_PWM/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC_PWM/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC_PWM/input_to_sample" type="array">
+      <obj_property name="ElementShortName">input_to_sample[11:0]</obj_property>
+      <obj_property name="ObjectShortName">input_to_sample[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC_PWM/pwm_out" type="logic">
+      <obj_property name="ElementShortName">pwm_out</obj_property>
+      <obj_property name="ObjectShortName">pwm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC_PWM/counter" type="array">
+      <obj_property name="ElementShortName">counter[11:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC_PWM/sample" type="array">
+      <obj_property name="ElementShortName">sample[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sample[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_XADC_PWM/G_INPUT_BITS" type="other">
+      <obj_property name="ElementShortName">G_INPUT_BITS</obj_property>
+      <obj_property name="ObjectShortName">G_INPUT_BITS</obj_property>
+   </wvobject>
+</wave_config>

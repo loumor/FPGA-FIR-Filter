@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1229607250756fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="105"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="91" />
+   <wvobject type="divider" fp_name="divider388">
+      <obj_property name="label">PM_DATA_PROCESS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/mode" type="array">
+      <obj_property name="ElementShortName">mode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/data_in_vld" type="logic">
+      <obj_property name="ElementShortName">data_in_vld</obj_property>
+      <obj_property name="ObjectShortName">data_in_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/data_in_rdy" type="logic">
+      <obj_property name="ElementShortName">data_in_rdy</obj_property>
+      <obj_property name="ObjectShortName">data_in_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/data_out_vld" type="logic">
+      <obj_property name="ElementShortName">data_out_vld</obj_property>
+      <obj_property name="ObjectShortName">data_out_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/data_out_rdy" type="logic">
+      <obj_property name="ElementShortName">data_out_rdy</obj_property>
+      <obj_property name="ObjectShortName">data_out_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/filter_in_vld" type="logic">
+      <obj_property name="ElementShortName">filter_in_vld</obj_property>
+      <obj_property name="ObjectShortName">filter_in_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/filter_in_data" type="array">
+      <obj_property name="ElementShortName">filter_in_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_in_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/filter_out_vld" type="logic">
+      <obj_property name="ElementShortName">filter_out_vld</obj_property>
+      <obj_property name="ObjectShortName">filter_out_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/filter_out_data" type="array">
+      <obj_property name="ElementShortName">filter_out_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_out_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider468">
+      <obj_property name="label">PM_DATAINPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/data_in_vld" type="logic">
+      <obj_property name="ElementShortName">data_in_vld</obj_property>
+      <obj_property name="ObjectShortName">data_in_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/data_in_rdy" type="logic">
+      <obj_property name="ElementShortName">data_in_rdy</obj_property>
+      <obj_property name="ObjectShortName">data_in_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/filter_in_vld" type="logic">
+      <obj_property name="ElementShortName">filter_in_vld</obj_property>
+      <obj_property name="ObjectShortName">filter_in_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/filter_in_data" type="array">
+      <obj_property name="ElementShortName">filter_in_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_in_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/filter_out_vld" type="logic">
+      <obj_property name="ElementShortName">filter_out_vld</obj_property>
+      <obj_property name="ObjectShortName">filter_out_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/filter_out_data" type="array">
+      <obj_property name="ElementShortName">filter_out_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_out_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/data_out_vld" type="logic">
+      <obj_property name="ElementShortName">data_out_vld</obj_property>
+      <obj_property name="ObjectShortName">data_out_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/data_out_rdy" type="logic">
+      <obj_property name="ElementShortName">data_out_rdy</obj_property>
+      <obj_property name="ObjectShortName">data_out_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/data_in_rdy_i" type="logic">
+      <obj_property name="ElementShortName">data_in_rdy_i</obj_property>
+      <obj_property name="ObjectShortName">data_in_rdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/data_out_vld_i" type="logic">
+      <obj_property name="ElementShortName">data_out_vld_i</obj_property>
+      <obj_property name="ObjectShortName">data_out_vld_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/fifo_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/fifo_full" type="logic">
+      <obj_property name="ElementShortName">fifo_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/fifo_rd_en_dly1" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en_dly1</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en_dly1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/fifo_wr_en" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/fifo_rd_data" type="array">
+      <obj_property name="ElementShortName">fifo_rd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/G_DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">G_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">G_DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider446">
+      <obj_property name="label">PM_FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/din" type="array">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/fifo" type="array">
+      <obj_property name="ElementShortName">fifo[15:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo[15:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/wr_ptr" type="array">
+      <obj_property name="ElementShortName">wr_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/rd_ptr" type="array">
+      <obj_property name="ElementShortName">rd_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/next_wr_ptr" type="array">
+      <obj_property name="ElementShortName">next_wr_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_wr_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/next_rd_ptr" type="array">
+      <obj_property name="ElementShortName">next_rd_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_rd_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/empty_r" type="logic">
+      <obj_property name="ElementShortName">empty_r</obj_property>
+      <obj_property name="ObjectShortName">empty_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/full_r" type="logic">
+      <obj_property name="ElementShortName">full_r</obj_property>
+      <obj_property name="ObjectShortName">full_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/G_DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">G_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">G_DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/G_DEPTH" type="other">
+      <obj_property name="ElementShortName">G_DEPTH</obj_property>
+      <obj_property name="ObjectShortName">G_DEPTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/C_ADDR_WIDTH" type="other">
+      <obj_property name="ElementShortName">C_ADDR_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">C_ADDR_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/G_DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">G_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">G_DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider427">
+      <obj_property name="label">PM_MYFILTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/mode" type="array">
+      <obj_property name="ElementShortName">mode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/filter_in_vld" type="logic">
+      <obj_property name="ElementShortName">filter_in_vld</obj_property>
+      <obj_property name="ObjectShortName">filter_in_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/filter_in_data" type="array">
+      <obj_property name="ElementShortName">filter_in_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_in_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/filter_out_vld" type="logic">
+      <obj_property name="ElementShortName">filter_out_vld</obj_property>
+      <obj_property name="ObjectShortName">filter_out_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/filter_out_data" type="array">
+      <obj_property name="ElementShortName">filter_out_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_out_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/fir_out_vld" type="logic">
+      <obj_property name="ElementShortName">fir_out_vld</obj_property>
+      <obj_property name="ObjectShortName">fir_out_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/fir_out_data" type="array">
+      <obj_property name="ElementShortName">fir_out_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fir_out_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/pipe_out_vld" type="logic">
+      <obj_property name="ElementShortName">pipe_out_vld</obj_property>
+      <obj_property name="ObjectShortName">pipe_out_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/pipe_out_data" type="array">
+      <obj_property name="ElementShortName">pipe_out_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pipe_out_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/mode_select" type="array">
+      <obj_property name="ElementShortName">mode_select[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mode_select[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/G_DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">G_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">G_DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider413">
+      <obj_property name="label">PM_PIPELINE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_PIPELINE/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_PIPELINE/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_PIPELINE/mode" type="array">
+      <obj_property name="ElementShortName">mode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_PIPELINE/pipe_in_vld" type="logic">
+      <obj_property name="ElementShortName">pipe_in_vld</obj_property>
+      <obj_property name="ObjectShortName">pipe_in_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_PIPELINE/pipe_in_data" type="array">
+      <obj_property name="ElementShortName">pipe_in_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pipe_in_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_PIPELINE/pipe_out_vld" type="logic">
+      <obj_property name="ElementShortName">pipe_out_vld</obj_property>
+      <obj_property name="ObjectShortName">pipe_out_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_PIPELINE/pipe_out_data" type="array">
+      <obj_property name="ElementShortName">pipe_out_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pipe_out_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_PIPELINE/pipe_2_vld" type="logic">
+      <obj_property name="ElementShortName">pipe_2_vld</obj_property>
+      <obj_property name="ObjectShortName">pipe_2_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_PIPELINE/pipe_2_data" type="array">
+      <obj_property name="ElementShortName">pipe_2_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pipe_2_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_PIPELINE/G_DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">G_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">G_DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider387">
+      <obj_property name="label">PM_FILTER_TEST</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_FILTER_TEST/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_FILTER_TEST/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_FILTER_TEST/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_FILTER_TEST/data_in_vld" type="logic">
+      <obj_property name="ElementShortName">data_in_vld</obj_property>
+      <obj_property name="ObjectShortName">data_in_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_FILTER_TEST/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_FILTER_TEST/data_out_vld" type="logic">
+      <obj_property name="ElementShortName">data_out_vld</obj_property>
+      <obj_property name="ObjectShortName">data_out_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_FILTER_TEST/pipe_2_vld" type="logic">
+      <obj_property name="ElementShortName">pipe_2_vld</obj_property>
+      <obj_property name="ObjectShortName">pipe_2_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_FILTER_TEST/pipe_2_data" type="array">
+      <obj_property name="ElementShortName">pipe_2_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pipe_2_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_DATA_PROCESS/PM_MYFILTER/PM_FILTER_TEST/G_DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">G_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">G_DATA_WIDTH</obj_property>
+   </wvobject>
+</wave_config>

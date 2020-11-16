@@ -1,0 +1,27 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../src/pmod_oled/Delay.vhd" \
+"../../../../src/pmod_oled/OledInit.vhd" \
+"../../../../src/pmod_oled/OledUser.vhd" \
+"../../../../src/pmod_oled/PmodOLEDCtrl.vhd" \
+"../../../../src/pmod_oled/SpiCtrl.vhd" \
+"../../../../src/clk_prescaler.vhd" \
+"../../../../src/fifo_ram.vhd" \
+"../../../../src/data_processing_input.vhd" \
+"../../../../src/pipeline.vhd" \
+"../../../../src/my_FIR_filter.vhd" \
+"../../../../src/my_filter.vhd" \
+"../../../../src/data_processing.vhd" \
+"../../../../src/dbg_pwm_out.vhd" \
+"../../../../src/i2c/i2c_master.vhd" \
+"../../../../src/i2c/i2c_wrapper.vhd" \
+"../../../../src/spi/spi_master.vhd" \
+"../../../../src/spi/spi_wrapper_1x.vhd" \
+"../../../../src/spi/spi_controller.vhd" \
+"../../../../src/uart/uart_tx.vhd" \
+"../../../../src/uart/uart_rx.vhd" \
+"../../../../src/uart/uart.vhd" \
+"../../../../src/fpga_top.vhd" \
+
+# Do not sort compile order
+nosort

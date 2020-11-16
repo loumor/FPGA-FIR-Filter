@@ -1,0 +1,213 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Oct 21 18:22:43 2020
+| Host         : LAB-GPS517-003 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file fpga_top_control_sets_placed.rpt
+| Design       : fpga_top
+| Device       : xc7a35ti
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   135 |
+|    Minimum number of control sets                        |   135 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   298 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   135 |
+| >= 0 to < 4        |     5 |
+| >= 4 to < 6        |    27 |
+| >= 6 to < 8        |    65 |
+| >= 8 to < 10       |    14 |
+| >= 10 to < 12      |     5 |
+| >= 12 to < 14      |     5 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    13 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |           11 |
+| No           | No                    | Yes                    |             126 |           42 |
+| No           | Yes                   | No                     |              60 |           22 |
+| Yes          | No                    | No                     |             811 |          211 |
+| Yes          | No                    | Yes                    |             709 |          197 |
+| Yes          | Yes                   | No                     |             520 |          134 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+----------------------------------------------------------------------+------------------------------------------------------+------------------+----------------+--------------+
+|      Clock Signal     |                             Enable Signal                            |                   Set/Reset Signal                   | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------+----------------------------------------------------------------------+------------------------------------------------------+------------------+----------------+--------------+
+|  PM_PLL/inst/clk_100  |                                                                      | PM_UART/uart_tx_inst/tx_r_i_1_n_0                    |                1 |              1 |         1.00 |
+|  PM_PLL/inst/clk_36   | PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_mosi_i_1_n_0            | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              1 |         1.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_Init/temp_vbat3_out                                       |                                                      |                1 |              1 |         1.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_Init/temp_vdd2_out                                        |                                                      |                1 |              1 |         1.00 |
+|  PM_PLL/inst/clk_100  | rst_n_IBUF                                                           | PM_UART/uart_tx_inst/cnt_shift_r[9]_i_1_n_0          |                2 |              3 |         1.50 |
+|  PM_PLL/inst/clk_36   | PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_wr_local_byte           | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_36   | PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_wr_valid0                        | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/wr_ptr0                         | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_UART/fifo_rx_inst/wr_ptr0                                         | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_UART/fifo_rx_inst/rd_ptr0                                         | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  |                                                                      | PM_OLED/PM_Init/SPI_COMP/counter                     |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  |                                                                      | PM_OLED/PM_UserDisp/PM_SPI_COMP/counter              |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/after_page_state                                 |                                                      |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | hex_digit0                                                           |                                                      |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | calc_4                                                               | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                4 |              4 |         1.00 |
+|  PM_PLL/inst/clk_100  | calc_3                                                               | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |              4 |         1.33 |
+|  PM_PLL/inst/clk_100  | calc_2                                                               | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |              4 |         1.33 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/temp_spi_data[5]_i_1_n_0                         |                                                      |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/temp_spi_data[5]_i_1_n_0                         | PM_OLED/PM_UserDisp/temp_spi_data[7]_i_1__0_n_0      |                2 |              4 |         2.00 |
+|  PM_PLL/inst/clk_100  | PM_I2C_WRAPPER/PM_I2C_MASTER/E[0]                                    | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_I2C_WRAPPER/i2c_data_wr[6]_i_1_n_0                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_UART/fifo_tx_inst/wr_ptr0                                         | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              4 |         2.00 |
+|  PM_PLL/inst/clk_100  | PM_UART/fifo_tx_inst/rd_ptr0                                         | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/rd_ptr0                         | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/g0_b0__2_n_0                                     |                                                      |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_XADC_PWM/pwm_out_i_1_n_0                                          | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_Init/E[0]                                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              4 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_Init/DELAY_COMP/E[0]                                      | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              5 |         2.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_Init/after_state_0                                        |                                                      |                2 |              5 |         2.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_Init/SPI_COMP/temp_sdo                                    | PM_OLED/PM_Init/SPI_COMP/shift_counter[3]_i_1__0_n_0 |                1 |              5 |         5.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/PM_SPI_COMP/temp_sdo                             | PM_OLED/PM_UserDisp/PM_SPI_COMP/SR[0]                |                2 |              5 |         2.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/PM_SPI_COMP/E[0]                                 |                                                      |                4 |              5 |         1.25 |
+|  PM_PLL/inst/clk_100  | PM_I2C_WRAPPER/PM_I2C_MASTER/addr_rw0                                |                                                      |                2 |              6 |         3.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,7]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,6]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,3]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,10]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,5]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,13]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,2]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,3]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,12]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,8]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,4]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                4 |              7 |         1.75 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,6]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,11]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,9]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |              7 |         2.33 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,11]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,14]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |              7 |         2.33 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,15]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,2]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,12]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,8]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,7]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,10]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,1]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,8]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,1]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,13]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,6]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,0]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,11]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |              7 |         2.33 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,13]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,14]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,15]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |              7 |         2.33 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,2]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,6]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,9]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,3]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |              7 |         2.33 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,12]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,4]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,5]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,8]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,5]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,1]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,0]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,7]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,10]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,9]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,0]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,14]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              7 |         3.50 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[3,9]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,7]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[2,4]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |              7 |         2.33 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,0]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,15]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,2]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,3]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,5]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                5 |              7 |         1.40 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,12]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,10]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,13]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,14]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,1]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |              7 |         2.33 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,11]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[0,4]                                 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/user_screen[1,15]                                | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              7 |         7.00 |
+|  PM_CLKDIV_1M/clk_1M  |                                                                      | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              8 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_DATA_PROCESS/PM_MYFILTER/filter_out_vld_reg_0[0]                  | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              8 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_UART/fifo_rx_inst/dout[7]_i_1__0_n_0                              |                                                      |                2 |              8 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_UART/fifo_tx_inst/dout[7]_i_1_n_0                                 |                                                      |                2 |              8 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/dout[7]_i_1__1_n_0              |                                                      |                2 |              8 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/PM_SPI_COMP/shift_register                       |                                                      |                1 |              8 |         8.00 |
+|  PM_PLL/inst/clk_100  | uart_rx_valid_dly1                                                   | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                1 |              8 |         8.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_Init/g0_b0__1_n_0                                         |                                                      |                1 |              8 |         8.00 |
+|  PM_PLL/inst/clk_100  | PM_UART/uart_rx_inst/cnt_data_r[7]_i_1_n_0                           |                                                      |                3 |              8 |         2.67 |
+|  PM_PLL/inst/clk_100  | PM_UART/uart_rx_inst/rx_data_sr[7]_i_1_n_0                           |                                                      |                2 |              8 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_Init/SPI_COMP/shift_register_0                            |                                                      |                1 |              8 |         8.00 |
+|  PM_PLL/inst/clk_100  | PM_DATA_PROCESS/PM_DATAINPUT/E[0]                                    | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                2 |              9 |         4.50 |
+|  PM_PLL/inst/clk_100  | PM_I2C_WRAPPER/PM_I2C_MASTER/busy1                                   | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |              9 |         3.00 |
+|  PM_PLL/inst/clk_36   |                                                                      | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                4 |              9 |         2.25 |
+|  PM_PLL/inst/clk_100  | PM_UART/uart_tx_inst/cnt_shift_r                                     | PM_UART/uart_tx_inst/cnt_shift_r[9]_i_1_n_0          |                2 |             10 |         5.00 |
+|  PM_PLL/inst/clk_100  | PM_UART/uart_tx_inst/tx_data_sr                                      |                                                      |                3 |             10 |         3.33 |
+|  PM_PLL/inst/clk_100  |                                                                      | PM_UART/uart_rx_inst/cnt_div_r0                      |                3 |             10 |         3.33 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/g0_b0__3_n_0                                     |                                                      |                2 |             10 |         5.00 |
+|  PM_CLKDIV_1K/clk_10k |                                                                      | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |             11 |         3.67 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_Init/DELAY_COMP/ms_counter[0]_i_2_n_0                     | PM_OLED/PM_Init/DELAY_COMP/ms_counter                |                3 |             12 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/after_char_state_0                               |                                                      |                3 |             12 |         4.00 |
+|  PM_PLL/inst/clk_100  | btn_IBUF[0]                                                          | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |             12 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_XADC_PWM/sample[11]_i_1_n_0                                       | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                4 |             12 |         3.00 |
+|  PM_PLL/inst/clk_100  | xadc_calculation[11]_i_1_n_0                                         | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                8 |             12 |         1.50 |
+|  PM_PLL/inst/clk_100  | oled_req_data                                                        | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                8 |             14 |         1.75 |
+|  PM_PLL/inst/clk_100  | PM_UART/fifo_rx_inst/p_0_in__0                                       |                                                      |                2 |             16 |         8.00 |
+|  PM_PLL/inst/clk_100  | PM_DATA_PROCESS/PM_DATAINPUT/PM_FIFO/p_0_in__0                       |                                                      |                2 |             16 |         8.00 |
+|  PM_PLL/inst/clk_100  | PM_DATA_PROCESS/PM_MYFILTER/PM_FILTER_TEST/E[0]                      | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                3 |             16 |         5.33 |
+|  PM_PLL/inst/clk_100  | PM_UART/fifo_tx_inst/p_0_in                                          |                                                      |                2 |             16 |         8.00 |
+|  PM_PLL/inst/clk_100  |                                                                      | PM_OLED/PM_Init/DELAY_COMP/clk_counter[0]_i_1_n_0    |                5 |             17 |         3.40 |
+|  PM_PLL/inst/clk_100  | rst_n_IBUF                                                           |                                                      |                5 |             18 |         3.60 |
+|  PM_PLL/inst/clk_100  |                                                                      |                                                      |               11 |             20 |         1.82 |
+|  PM_PLL/inst/clk_100  | oled_count[31]_i_1_n_0                                               | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                8 |             32 |         4.00 |
+|  PM_PLL/inst/clk_36   | PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_bit_counter[31]_i_1_n_0 | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |                7 |             32 |         4.57 |
+|  PM_PLL/inst/clk_100  | PM_DATA_PROCESS/PM_DATAINPUT/fifo_rd_en_dly1                         | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |               36 |             64 |         1.78 |
+|  PM_PLL/inst/clk_100  |                                                                      | PM_OLED/PM_UserDisp/PM_SPI_COMP/AR[0]                |               44 |            122 |         2.77 |
+|  PM_PLL/inst/clk_100  | PM_OLED/PM_UserDisp/current_screen[3,15]                             | PM_OLED/PM_UserDisp/current_screen[3,0][6]_i_1_n_0   |              112 |            448 |         4.00 |
+|  PM_PLL/inst/clk_100  | PM_DATA_PROCESS/PM_DATAINPUT/filter_in_vld_reg_0[0]                  |                                                      |              170 |            663 |         3.90 |
++-----------------------+----------------------------------------------------------------------+------------------------------------------------------+------------------+----------------+--------------+
+
+

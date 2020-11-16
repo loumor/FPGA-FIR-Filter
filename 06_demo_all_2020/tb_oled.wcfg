@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000000001fs"></ZoomEndTime>
+      <Cursor1Time time="185635000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="105"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="72" />
+   <wvobject type="divider" fp_name="divider3309">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/xadc_offset" type="array">
+      <obj_property name="ElementShortName">xadc_offset[11:0]</obj_property>
+      <obj_property name="ObjectShortName">xadc_offset[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/xadc_actual" type="array">
+      <obj_property name="ElementShortName">xadc_actual[11:0]</obj_property>
+      <obj_property name="ObjectShortName">xadc_actual[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_digit_1" type="other">
+      <obj_property name="ElementShortName">oled_digit_1</obj_property>
+      <obj_property name="ObjectShortName">oled_digit_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_digit_2" type="other">
+      <obj_property name="ElementShortName">oled_digit_2</obj_property>
+      <obj_property name="ObjectShortName">oled_digit_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_digit_3" type="other">
+      <obj_property name="ElementShortName">oled_digit_3</obj_property>
+      <obj_property name="ObjectShortName">oled_digit_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_digit_4" type="other">
+      <obj_property name="ElementShortName">oled_digit_4</obj_property>
+      <obj_property name="ObjectShortName">oled_digit_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/state_oled" type="other">
+      <obj_property name="ElementShortName">state_oled</obj_property>
+      <obj_property name="ObjectShortName">state_oled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/state_oled_next" type="other">
+      <obj_property name="ElementShortName">state_oled_next</obj_property>
+      <obj_property name="ObjectShortName">state_oled_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_count" type="other">
+      <obj_property name="ElementShortName">oled_count</obj_property>
+      <obj_property name="ObjectShortName">oled_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_req" type="logic">
+      <obj_property name="ElementShortName">oled_req</obj_property>
+      <obj_property name="ObjectShortName">oled_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_rsp" type="logic">
+      <obj_property name="ElementShortName">oled_rsp</obj_property>
+      <obj_property name="ObjectShortName">oled_rsp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_req_addr" type="array">
+      <obj_property name="ElementShortName">oled_req_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oled_req_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/oled_req_data" type="array">
+      <obj_property name="ElementShortName">oled_req_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oled_req_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider3308">
+      <obj_property name="label">PM_OLED</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/CS" type="logic">
+      <obj_property name="ElementShortName">CS</obj_property>
+      <obj_property name="ObjectShortName">CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/SDIN" type="logic">
+      <obj_property name="ElementShortName">SDIN</obj_property>
+      <obj_property name="ObjectShortName">SDIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/SCLK" type="logic">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/DC" type="logic">
+      <obj_property name="ElementShortName">DC</obj_property>
+      <obj_property name="ObjectShortName">DC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/RES" type="logic">
+      <obj_property name="ElementShortName">RES</obj_property>
+      <obj_property name="ObjectShortName">RES</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/VBAT" type="logic">
+      <obj_property name="ElementShortName">VBAT</obj_property>
+      <obj_property name="ObjectShortName">VBAT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/VDD" type="logic">
+      <obj_property name="ElementShortName">VDD</obj_property>
+      <obj_property name="ObjectShortName">VDD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/req" type="logic">
+      <obj_property name="ElementShortName">req</obj_property>
+      <obj_property name="ObjectShortName">req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/req_addr" type="array">
+      <obj_property name="ElementShortName">req_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">req_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/req_data" type="array">
+      <obj_property name="ElementShortName">req_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">req_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/rsp" type="logic">
+      <obj_property name="ElementShortName">rsp</obj_property>
+      <obj_property name="ObjectShortName">rsp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/init_en" type="logic">
+      <obj_property name="ElementShortName">init_en</obj_property>
+      <obj_property name="ObjectShortName">init_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/init_done" type="logic">
+      <obj_property name="ElementShortName">init_done</obj_property>
+      <obj_property name="ObjectShortName">init_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/init_cs" type="logic">
+      <obj_property name="ElementShortName">init_cs</obj_property>
+      <obj_property name="ObjectShortName">init_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/init_sdo" type="logic">
+      <obj_property name="ElementShortName">init_sdo</obj_property>
+      <obj_property name="ObjectShortName">init_sdo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/init_sclk" type="logic">
+      <obj_property name="ElementShortName">init_sclk</obj_property>
+      <obj_property name="ObjectShortName">init_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/init_dc" type="logic">
+      <obj_property name="ElementShortName">init_dc</obj_property>
+      <obj_property name="ObjectShortName">init_dc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/user_en" type="logic">
+      <obj_property name="ElementShortName">user_en</obj_property>
+      <obj_property name="ObjectShortName">user_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/user_cs" type="logic">
+      <obj_property name="ElementShortName">user_cs</obj_property>
+      <obj_property name="ObjectShortName">user_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/user_sdo" type="logic">
+      <obj_property name="ElementShortName">user_sdo</obj_property>
+      <obj_property name="ObjectShortName">user_sdo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/user_sclk" type="logic">
+      <obj_property name="ElementShortName">user_sclk</obj_property>
+      <obj_property name="ObjectShortName">user_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/user_dc" type="logic">
+      <obj_property name="ElementShortName">user_dc</obj_property>
+      <obj_property name="ObjectShortName">user_dc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/user_done" type="logic">
+      <obj_property name="ElementShortName">user_done</obj_property>
+      <obj_property name="ObjectShortName">user_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/G_IN_SIM" type="other">
+      <obj_property name="ElementShortName">G_IN_SIM</obj_property>
+      <obj_property name="ObjectShortName">G_IN_SIM</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider3307">
+      <obj_property name="label">OLED USER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/EN" type="logic">
+      <obj_property name="ElementShortName">EN</obj_property>
+      <obj_property name="ObjectShortName">EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/CS" type="logic">
+      <obj_property name="ElementShortName">CS</obj_property>
+      <obj_property name="ObjectShortName">CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/SDO" type="logic">
+      <obj_property name="ElementShortName">SDO</obj_property>
+      <obj_property name="ObjectShortName">SDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/SCLK" type="logic">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/DC" type="logic">
+      <obj_property name="ElementShortName">DC</obj_property>
+      <obj_property name="ObjectShortName">DC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/FIN" type="logic">
+      <obj_property name="ElementShortName">FIN</obj_property>
+      <obj_property name="ObjectShortName">FIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/req" type="logic">
+      <obj_property name="ElementShortName">req</obj_property>
+      <obj_property name="ObjectShortName">req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/req_addr" type="array">
+      <obj_property name="ElementShortName">req_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">req_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/req_data" type="array">
+      <obj_property name="ElementShortName">req_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">req_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/rsp" type="logic">
+      <obj_property name="ElementShortName">rsp</obj_property>
+      <obj_property name="ObjectShortName">rsp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/current_screen" type="array">
+      <obj_property name="ElementShortName">current_screen[0:3,0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">current_screen[0:3,0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/user_screen" type="array">
+      <obj_property name="ElementShortName">user_screen[0:3,0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">user_screen[0:3,0:15][7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/user_screen[0]" type="array">
+         <obj_property name="ElementShortName">[0,0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0,0:15][7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/user_screen[1]" type="array">
+         <obj_property name="ElementShortName">[1,0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1,0:15][7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/user_screen[2]" type="array">
+         <obj_property name="ElementShortName">[2,0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[2,0:15][7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/user_screen[3]" type="array">
+         <obj_property name="ElementShortName">[3,0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[3,0:15][7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/after_state" type="other">
+      <obj_property name="ElementShortName">after_state</obj_property>
+      <obj_property name="ObjectShortName">after_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/after_page_state" type="other">
+      <obj_property name="ElementShortName">after_page_state</obj_property>
+      <obj_property name="ObjectShortName">after_page_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/after_char_state" type="other">
+      <obj_property name="ElementShortName">after_char_state</obj_property>
+      <obj_property name="ObjectShortName">after_char_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/after_update_state" type="other">
+      <obj_property name="ElementShortName">after_update_state</obj_property>
+      <obj_property name="ObjectShortName">after_update_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/temp_dc" type="logic">
+      <obj_property name="ElementShortName">temp_dc</obj_property>
+      <obj_property name="ObjectShortName">temp_dc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/temp_spi_en" type="logic">
+      <obj_property name="ElementShortName">temp_spi_en</obj_property>
+      <obj_property name="ObjectShortName">temp_spi_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/temp_spi_data" type="array">
+      <obj_property name="ElementShortName">temp_spi_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_spi_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/temp_spi_fin" type="logic">
+      <obj_property name="ElementShortName">temp_spi_fin</obj_property>
+      <obj_property name="ObjectShortName">temp_spi_fin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/temp_char" type="array">
+      <obj_property name="ElementShortName">temp_char[7:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_char[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/temp_addr" type="array">
+      <obj_property name="ElementShortName">temp_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/temp_dout" type="array">
+      <obj_property name="ElementShortName">temp_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/temp_page" type="array">
+      <obj_property name="ElementShortName">temp_page[1:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_page[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/temp_index" type="other">
+      <obj_property name="ElementShortName">temp_index</obj_property>
+      <obj_property name="ObjectShortName">temp_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_OLED/PM_UserDisp/clear_screen" type="array">
+      <obj_property name="ElementShortName">clear_screen[0:3,0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">clear_screen[0:3,0:15][7:0]</obj_property>
+   </wvobject>
+</wave_config>

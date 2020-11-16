@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="198732763096fs"></ZoomStartTime>
+      <ZoomEndTime time="200771546296fs"></ZoomEndTime>
+      <Cursor1Time time="2267185000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="155"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="69" />
+   <wvobject type="divider" fp_name="divider2517">
+      <obj_property name="label">SPI_Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/clk_sys" type="logic">
+      <obj_property name="ElementShortName">clk_sys</obj_property>
+      <obj_property name="ObjectShortName">clk_sys</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/clk_spi_x2" type="logic">
+      <obj_property name="ElementShortName">clk_spi_x2</obj_property>
+      <obj_property name="ObjectShortName">clk_spi_x2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/trigger" type="logic">
+      <obj_property name="ElementShortName">trigger</obj_property>
+      <obj_property name="ObjectShortName">trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/spi_clk" type="logic">
+      <obj_property name="ElementShortName">spi_clk</obj_property>
+      <obj_property name="ObjectShortName">spi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/spi_cs" type="logic">
+      <obj_property name="ElementShortName">spi_cs</obj_property>
+      <obj_property name="ObjectShortName">spi_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/spi_miso" type="logic">
+      <obj_property name="ElementShortName">spi_miso</obj_property>
+      <obj_property name="ObjectShortName">spi_miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/spi_mosi" type="logic">
+      <obj_property name="ElementShortName">spi_mosi</obj_property>
+      <obj_property name="ObjectShortName">spi_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/spi_rst" type="logic">
+      <obj_property name="ElementShortName">spi_rst</obj_property>
+      <obj_property name="ObjectShortName">spi_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/spi_ch" type="logic">
+      <obj_property name="ElementShortName">spi_ch</obj_property>
+      <obj_property name="ObjectShortName">spi_ch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/sm_spi" type="other">
+      <obj_property name="ElementShortName">sm_spi</obj_property>
+      <obj_property name="ObjectShortName">sm_spi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/sm_spi_next" type="other">
+      <obj_property name="ElementShortName">sm_spi_next</obj_property>
+      <obj_property name="ObjectShortName">sm_spi_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/sys_wr_valid" type="logic">
+      <obj_property name="ElementShortName">sys_wr_valid</obj_property>
+      <obj_property name="ObjectShortName">sys_wr_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/sys_wr_eot" type="logic">
+      <obj_property name="ElementShortName">sys_wr_eot</obj_property>
+      <obj_property name="ObjectShortName">sys_wr_eot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/sys_wr_data" type="array">
+      <obj_property name="ElementShortName">sys_wr_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sys_wr_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/sys_wr_taken" type="logic">
+      <obj_property name="ElementShortName">sys_wr_taken</obj_property>
+      <obj_property name="ObjectShortName">sys_wr_taken</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1942">
+      <obj_property name="label">SPI WRAPPER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/clk_sys" type="logic">
+      <obj_property name="ElementShortName">clk_sys</obj_property>
+      <obj_property name="ObjectShortName">clk_sys</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/clk_spi_x2" type="logic">
+      <obj_property name="ElementShortName">clk_spi_x2</obj_property>
+      <obj_property name="ObjectShortName">clk_spi_x2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/sys_rd_trigger" type="logic">
+      <obj_property name="ElementShortName">sys_rd_trigger</obj_property>
+      <obj_property name="ObjectShortName">sys_rd_trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/sys_rd_sample_valid" type="logic">
+      <obj_property name="ElementShortName">sys_rd_sample_valid</obj_property>
+      <obj_property name="ObjectShortName">sys_rd_sample_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/sys_rd_sample_ch" type="logic">
+      <obj_property name="ElementShortName">sys_rd_sample_ch</obj_property>
+      <obj_property name="ObjectShortName">sys_rd_sample_ch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/sys_rd_sample_data" type="array">
+      <obj_property name="ElementShortName">sys_rd_sample_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sys_rd_sample_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/sys_wr_valid" type="logic">
+      <obj_property name="ElementShortName">sys_wr_valid</obj_property>
+      <obj_property name="ObjectShortName">sys_wr_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/sys_wr_eot" type="logic">
+      <obj_property name="ElementShortName">sys_wr_eot</obj_property>
+      <obj_property name="ObjectShortName">sys_wr_eot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/sys_wr_data" type="array">
+      <obj_property name="ElementShortName">sys_wr_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sys_wr_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/sys_wr_taken" type="logic">
+      <obj_property name="ElementShortName">sys_wr_taken</obj_property>
+      <obj_property name="ObjectShortName">sys_wr_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_clk" type="logic">
+      <obj_property name="ElementShortName">spi_clk</obj_property>
+      <obj_property name="ObjectShortName">spi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_cs" type="logic">
+      <obj_property name="ElementShortName">spi_cs</obj_property>
+      <obj_property name="ObjectShortName">spi_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_miso" type="logic">
+      <obj_property name="ElementShortName">spi_miso</obj_property>
+      <obj_property name="ObjectShortName">spi_miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_mosi" type="logic">
+      <obj_property name="ElementShortName">spi_mosi</obj_property>
+      <obj_property name="ObjectShortName">spi_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_rst" type="logic">
+      <obj_property name="ElementShortName">spi_rst</obj_property>
+      <obj_property name="ObjectShortName">spi_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_ch" type="logic">
+      <obj_property name="ElementShortName">spi_ch</obj_property>
+      <obj_property name="ObjectShortName">spi_ch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/sys_rd_trigger_tgl" type="logic">
+      <obj_property name="ElementShortName">sys_rd_trigger_tgl</obj_property>
+      <obj_property name="ObjectShortName">sys_rd_trigger_tgl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/sys_wr_valid_tgl" type="logic">
+      <obj_property name="ElementShortName">sys_wr_valid_tgl</obj_property>
+      <obj_property name="ObjectShortName">sys_wr_valid_tgl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_rd_trigger" type="logic">
+      <obj_property name="ElementShortName">spi_rd_trigger</obj_property>
+      <obj_property name="ObjectShortName">spi_rd_trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_rd_valid" type="logic">
+      <obj_property name="ElementShortName">spi_rd_valid</obj_property>
+      <obj_property name="ObjectShortName">spi_rd_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_rd_data" type="array">
+      <obj_property name="ElementShortName">spi_rd_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_rd_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_wr_valid" type="logic">
+      <obj_property name="ElementShortName">spi_wr_valid</obj_property>
+      <obj_property name="ObjectShortName">spi_wr_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_wr_eot" type="logic">
+      <obj_property name="ElementShortName">spi_wr_eot</obj_property>
+      <obj_property name="ObjectShortName">spi_wr_eot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_wr_data" type="array">
+      <obj_property name="ElementShortName">spi_wr_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_wr_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_wr_taken" type="logic">
+      <obj_property name="ElementShortName">spi_wr_taken</obj_property>
+      <obj_property name="ObjectShortName">spi_wr_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/spi_ch_i" type="logic">
+      <obj_property name="ElementShortName">spi_ch_i</obj_property>
+      <obj_property name="ObjectShortName">spi_ch_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/G_NUM_SPI_CLKS_READ" type="other">
+      <obj_property name="ElementShortName">G_NUM_SPI_CLKS_READ</obj_property>
+      <obj_property name="ObjectShortName">G_NUM_SPI_CLKS_READ</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1941">
+      <obj_property name="label">SPI_Master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/wr_valid" type="logic">
+      <obj_property name="ElementShortName">wr_valid</obj_property>
+      <obj_property name="ObjectShortName">wr_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/wr_taken" type="logic">
+      <obj_property name="ElementShortName">wr_taken</obj_property>
+      <obj_property name="ObjectShortName">wr_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/wr_eot" type="logic">
+      <obj_property name="ElementShortName">wr_eot</obj_property>
+      <obj_property name="ObjectShortName">wr_eot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/wr_data" type="array">
+      <obj_property name="ElementShortName">wr_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/trigger_read" type="logic">
+      <obj_property name="ElementShortName">trigger_read</obj_property>
+      <obj_property name="ObjectShortName">trigger_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_rd_valid" type="logic">
+      <obj_property name="ElementShortName">spi_rd_valid</obj_property>
+      <obj_property name="ObjectShortName">spi_rd_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_rd_data" type="array">
+      <obj_property name="ElementShortName">spi_rd_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_rd_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_clk" type="logic">
+      <obj_property name="ElementShortName">spi_clk</obj_property>
+      <obj_property name="ObjectShortName">spi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_cs" type="logic">
+      <obj_property name="ElementShortName">spi_cs</obj_property>
+      <obj_property name="ObjectShortName">spi_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_miso" type="logic">
+      <obj_property name="ElementShortName">spi_miso</obj_property>
+      <obj_property name="ObjectShortName">spi_miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_mosi" type="logic">
+      <obj_property name="ElementShortName">spi_mosi</obj_property>
+      <obj_property name="ObjectShortName">spi_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_ch" type="logic">
+      <obj_property name="ElementShortName">spi_ch</obj_property>
+      <obj_property name="ObjectShortName">spi_ch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_clk_i" type="logic">
+      <obj_property name="ElementShortName">spi_clk_i</obj_property>
+      <obj_property name="ObjectShortName">spi_clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_ch_i" type="logic">
+      <obj_property name="ElementShortName">spi_ch_i</obj_property>
+      <obj_property name="ObjectShortName">spi_ch_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_bit_counter" type="other">
+      <obj_property name="ElementShortName">spi_bit_counter</obj_property>
+      <obj_property name="ObjectShortName">spi_bit_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_wr_local_byte" type="array">
+      <obj_property name="ElementShortName">spi_wr_local_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_wr_local_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_wr_local_eot" type="logic">
+      <obj_property name="ElementShortName">spi_wr_local_eot</obj_property>
+      <obj_property name="ObjectShortName">spi_wr_local_eot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/spi_data_array" type="array">
+      <obj_property name="ElementShortName">spi_data_array[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_data_array[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/PM_SPI_CONTROLLER/PM_SPI_MASTER/PM_SPI_M/G_SPI_CLKS_READ" type="other">
+      <obj_property name="ElementShortName">G_SPI_CLKS_READ</obj_property>
+      <obj_property name="ObjectShortName">G_SPI_CLKS_READ</obj_property>
+   </wvobject>
+</wave_config>

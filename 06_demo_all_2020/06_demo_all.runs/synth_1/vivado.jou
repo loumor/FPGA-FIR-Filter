@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 21 18:20:44 2020
+# Process ID: 10384
+# Current directory: C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1
+# Command line: vivado.exe -log fpga_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fpga_top.tcl
+# Log file: C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1/fpga_top.vds
+# Journal file: C:/Users/n9510761/Desktop/projectBFinal/06_demo_all_2020/06_demo_all.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fpga_top.tcl -notrace
